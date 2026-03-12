@@ -1,0 +1,2936 @@
+[
+  {
+    "id": "things-to-do",
+    "type": "category",
+    "slug": "things-to-do",
+    "name": "Things To Do",
+    "description": "Activities and attractions",
+    "parentIds": [],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "Austin",
+      "type": "category"
+    },
+    "tags": [
+      "activities"
+    ],
+    "seo": {
+      "title": "Things to do Austin",
+      "description": "Activities Austin",
+      "keywords": [
+        "Austin activities"
+      ]
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "food-drink",
+    "type": "category",
+    "slug": "food-drink",
+    "name": "Food & Drink",
+    "description": "Restaurants and food",
+    "parentIds": [],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "Austin",
+      "type": "category"
+    },
+    "tags": [
+      "food"
+    ],
+    "seo": {
+      "title": "Food Austin",
+      "description": "Restaurants Austin",
+      "keywords": [
+        "Austin restaurants"
+      ]
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "nightlife",
+    "type": "category",
+    "slug": "nightlife",
+    "name": "Nightlife",
+    "description": "Bars and entertainment",
+    "parentIds": [],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "Austin",
+      "type": "category"
+    },
+    "tags": [
+      "nightlife"
+    ],
+    "seo": {
+      "title": "Austin Nightlife",
+      "description": "Nightlife Austin",
+      "keywords": [
+        "Austin bars"
+      ]
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "shopping",
+    "type": "category",
+    "slug": "shopping",
+    "name": "Shopping",
+    "description": "Retail businesses",
+    "parentIds": [],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "Austin",
+      "type": "category"
+    },
+    "tags": [
+      "shopping"
+    ],
+    "seo": {
+      "title": "Shopping Austin",
+      "description": "Austin shopping",
+      "keywords": [
+        "Austin retail"
+      ]
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "health-beauty",
+    "type": "category",
+    "slug": "health-beauty",
+    "name": "Health & Beauty",
+    "description": "Health services",
+    "parentIds": [],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "Austin",
+      "type": "category"
+    },
+    "tags": [
+      "health"
+    ],
+    "seo": {
+      "title": "Health Austin",
+      "description": "Health services Austin",
+      "keywords": [
+        "Austin health"
+      ]
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "services",
+    "type": "category",
+    "slug": "services",
+    "name": "Local Services",
+    "description": "General services",
+    "parentIds": [],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "Austin",
+      "type": "category"
+    },
+    "tags": [
+      "services"
+    ],
+    "seo": {
+      "title": "Austin Services",
+      "description": "Local services Austin",
+      "keywords": [
+        "Austin services"
+      ]
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "home-services",
+    "type": "category",
+    "slug": "home-services",
+    "name": "Home Services",
+    "description": "Home contractors",
+    "parentIds": [],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "Austin",
+      "type": "category"
+    },
+    "tags": [
+      "home"
+    ],
+    "seo": {
+      "title": "Home Services Austin",
+      "description": "Austin contractors",
+      "keywords": [
+        "Austin home"
+      ]
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "automotive",
+    "type": "category",
+    "slug": "automotive",
+    "name": "Automotive",
+    "description": "Car services",
+    "parentIds": [],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "Austin",
+      "type": "category"
+    },
+    "tags": [
+      "auto"
+    ],
+    "seo": {
+      "title": "Automotive Austin",
+      "description": "Car services Austin",
+      "keywords": [
+        "Austin auto"
+      ]
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "professional",
+    "type": "category",
+    "slug": "professional",
+    "name": "Professional Services",
+    "description": "Business services",
+    "parentIds": [],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "Austin",
+      "type": "category"
+    },
+    "tags": [
+      "business"
+    ],
+    "seo": {
+      "title": "Professional Austin",
+      "description": "Professional services",
+      "keywords": [
+        "Austin busines"
+      ]
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "restaurants",
+    "type": "category",
+    "slug": "restaurants",
+    "name": "Restaurants",
+    "description": "Places to eat",
+    "parentIds": [
+      "food-drink"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "fast-food",
+    "type": "category",
+    "slug": "fast-food",
+    "name": "Fast Food",
+    "description": "Quick restaurants",
+    "parentIds": [
+      "restaurants"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "mexican",
+    "type": "category",
+    "slug": "mexican",
+    "name": "Mexican Restaurants",
+    "description": "Mexican food",
+    "parentIds": [
+      "restaurants"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "bbq",
+    "type": "category",
+    "slug": "bbq",
+    "name": "BBQ Restaurants",
+    "description": "BBQ places",
+    "parentIds": [
+      "restaurants"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "pizza",
+    "type": "category",
+    "slug": "pizza",
+    "name": "Pizza",
+    "description": "Pizza restaurants",
+    "parentIds": [
+      "restaurants"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "sushi",
+    "type": "category",
+    "slug": "sushi",
+    "name": "Sushi",
+    "description": "Sushi restaurants",
+    "parentIds": [
+      "restaurants"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "steakhouses",
+    "type": "category",
+    "slug": "steakhouses",
+    "name": "Steakhouses",
+    "description": "Steak restaurants",
+    "parentIds": [
+      "restaurants"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "seafood",
+    "type": "category",
+    "slug": "seafood",
+    "name": "Seafood",
+    "description": "Seafood restaurants",
+    "parentIds": [
+      "restaurants"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "vegan",
+    "type": "category",
+    "slug": "vegan",
+    "name": "Vegan Restaurants",
+    "description": "Vegan food",
+    "parentIds": [
+      "restaurants"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "vegetarian",
+    "type": "category",
+    "slug": "vegetarian",
+    "name": "Vegetarian Restaurants",
+    "description": "Vegetarian food",
+    "parentIds": [
+      "restaurants"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "breakfast",
+    "type": "category",
+    "slug": "breakfast",
+    "name": "Breakfast",
+    "description": "Breakfast spots",
+    "parentIds": [
+      "restaurants"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "brunch",
+    "type": "category",
+    "slug": "brunch",
+    "name": "Brunch",
+    "description": "Brunch restaurants",
+    "parentIds": [
+      "restaurants"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "food-trucks",
+    "type": "category",
+    "slug": "food-trucks",
+    "name": "Food Trucks",
+    "description": "Food trucks",
+    "parentIds": [
+      "food-drink"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "bakeries",
+    "type": "category",
+    "slug": "bakeries",
+    "name": "Bakeries",
+    "description": "Bakeries",
+    "parentIds": [
+      "food-drink"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "coffee",
+    "type": "category",
+    "slug": "coffee",
+    "name": "Coffee Shops",
+    "description": "Coffee shops",
+    "parentIds": [
+      "food-drink"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "bubble-tea",
+    "type": "category",
+    "slug": "bubble-tea",
+    "name": "Bubble Tea",
+    "description": "Boba tea",
+    "parentIds": [
+      "coffee"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "dessert",
+    "type": "category",
+    "slug": "dessert",
+    "name": "Dessert Shops",
+    "description": "Dessert",
+    "parentIds": [
+      "food-drink"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "outdoor",
+    "type": "category",
+    "slug": "outdoor",
+    "name": "Outdoor Activities",
+    "description": "Outdoor recreation",
+    "parentIds": [
+      "things-to-do"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "parks",
+    "type": "category",
+    "slug": "parks",
+    "name": "Parks",
+    "description": "Public parks",
+    "parentIds": [
+      "outdoor"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "hiking",
+    "type": "category",
+    "slug": "hiking",
+    "name": "Hiking Trails",
+    "description": "Hiking",
+    "parentIds": [
+      "outdoor"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "biking",
+    "type": "category",
+    "slug": "biking",
+    "name": "Bike Trails",
+    "description": "Biking",
+    "parentIds": [
+      "outdoor"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "swimming",
+    "type": "category",
+    "slug": "swimming",
+    "name": "Swimming",
+    "description": "Swimming spots",
+    "parentIds": [
+      "outdoor"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "kayaking",
+    "type": "category",
+    "slug": "kayaking",
+    "name": "Kayaking",
+    "description": "Water sports",
+    "parentIds": [
+      "outdoor"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "paddleboard",
+    "type": "category",
+    "slug": "paddleboard",
+    "name": "Paddleboarding",
+    "description": "Paddleboarding",
+    "parentIds": [
+      "outdoor"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "museums",
+    "type": "category",
+    "slug": "museums",
+    "name": "Museums",
+    "description": "Museums",
+    "parentIds": [
+      "things-to-do"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "art-galleries",
+    "type": "category",
+    "slug": "art-galleries",
+    "name": "Art Galleries",
+    "description": "Art galleries",
+    "parentIds": [
+      "things-to-do"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "live-music",
+    "type": "category",
+    "slug": "live-music",
+    "name": "Live Music",
+    "description": "Music venues",
+    "parentIds": [
+      "things-to-do"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "comedy",
+    "type": "category",
+    "slug": "comedy",
+    "name": "Comedy Clubs",
+    "description": "Comedy venues",
+    "parentIds": [
+      "things-to-do"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "movie-theaters",
+    "type": "category",
+    "slug": "movie-theaters",
+    "name": "Movie Theaters",
+    "description": "Cinemas",
+    "parentIds": [
+      "things-to-do"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "bowling",
+    "type": "category",
+    "slug": "bowling",
+    "name": "Bowling",
+    "description": "Bowling alleys",
+    "parentIds": [
+      "things-to-do"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "arcades",
+    "type": "category",
+    "slug": "arcades",
+    "name": "Arcades",
+    "description": "Arcades",
+    "parentIds": [
+      "things-to-do"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "escape-rooms",
+    "type": "category",
+    "slug": "escape-rooms",
+    "name": "Escape Rooms",
+    "description": "Escape games",
+    "parentIds": [
+      "things-to-do"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "mini-golf",
+    "type": "category",
+    "slug": "mini-golf",
+    "name": "Mini Golf",
+    "description": "Mini golf",
+    "parentIds": [
+      "things-to-do"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "bars",
+    "type": "category",
+    "slug": "bars",
+    "name": "Bars",
+    "description": "Bars",
+    "parentIds": [
+      "nightlife"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "cocktail-bars",
+    "type": "category",
+    "slug": "cocktail-bars",
+    "name": "Cocktail Bars",
+    "description": "Cocktail bars",
+    "parentIds": [
+      "bars"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "sports-bars",
+    "type": "category",
+    "slug": "sports-bars",
+    "name": "Sports Bars",
+    "description": "Sports bars",
+    "parentIds": [
+      "bars"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "dive-bars",
+    "type": "category",
+    "slug": "dive-bars",
+    "name": "Dive Bars",
+    "description": "Dive bars",
+    "parentIds": [
+      "bars"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "wine-bars",
+    "type": "category",
+    "slug": "wine-bars",
+    "name": "Wine Bars",
+    "description": "Wine bars",
+    "parentIds": [
+      "bars"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "breweries",
+    "type": "category",
+    "slug": "breweries",
+    "name": "Breweries",
+    "description": "Breweries",
+    "parentIds": [
+      "nightlife"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "distilleries",
+    "type": "category",
+    "slug": "distilleries",
+    "name": "Distilleries",
+    "description": "Distilleries",
+    "parentIds": [
+      "nightlife"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "nightclubs",
+    "type": "category",
+    "slug": "nightclubs",
+    "name": "Nightclubs",
+    "description": "Nightclubs",
+    "parentIds": [
+      "nightlife"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "dance-clubs",
+    "type": "category",
+    "slug": "dance-clubs",
+    "name": "Dance Clubs",
+    "description": "Dance clubs",
+    "parentIds": [
+      "nightclubs"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "rooftop-bars",
+    "type": "category",
+    "slug": "rooftop-bars",
+    "name": "Rooftop Bars",
+    "description": "Rooftop bars",
+    "parentIds": [
+      "bars"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "spas",
+    "type": "category",
+    "slug": "spas",
+    "name": "Spas",
+    "description": "Spa services",
+    "parentIds": [
+      "health-beauty"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "estheticians",
+    "type": "category",
+    "slug": "estheticians",
+    "name": "Estheticians",
+    "description": "Skin care",
+    "parentIds": [
+      "health-beauty"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "waxing",
+    "type": "category",
+    "slug": "waxing",
+    "name": "Waxing",
+    "description": "Waxing services",
+    "parentIds": [
+      "estheticians"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "facials",
+    "type": "category",
+    "slug": "facials",
+    "name": "Facials",
+    "description": "Facial services",
+    "parentIds": [
+      "estheticians"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "laser-hair",
+    "type": "category",
+    "slug": "laser-hair",
+    "name": "Laser Hair Removal",
+    "description": "Laser hair removal",
+    "parentIds": [
+      "estheticians"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "massage",
+    "type": "category",
+    "slug": "massage",
+    "name": "Massage",
+    "description": "Massage therapy",
+    "parentIds": [
+      "health-beauty"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "hair-salons",
+    "type": "category",
+    "slug": "hair-salons",
+    "name": "Hair Salons",
+    "description": "Hair salons",
+    "parentIds": [
+      "health-beauty"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "barber",
+    "type": "category",
+    "slug": "barber",
+    "name": "Barbers",
+    "description": "Barbers",
+    "parentIds": [
+      "health-beauty"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "nail-salons",
+    "type": "category",
+    "slug": "nail-salons",
+    "name": "Nail Salons",
+    "description": "Nail salons",
+    "parentIds": [
+      "health-beauty"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "gyms",
+    "type": "category",
+    "slug": "gyms",
+    "name": "Gyms",
+    "description": "Fitness",
+    "parentIds": [
+      "health-beauty"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "yoga",
+    "type": "category",
+    "slug": "yoga",
+    "name": "Yoga Studios",
+    "description": "Yoga",
+    "parentIds": [
+      "gyms"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "pilates",
+    "type": "category",
+    "slug": "pilates",
+    "name": "Pilates",
+    "description": "Pilates",
+    "parentIds": [
+      "gyms"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "crossfit",
+    "type": "category",
+    "slug": "crossfit",
+    "name": "CrossFit",
+    "description": "CrossFit gyms",
+    "parentIds": [
+      "gyms"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "photography",
+    "type": "category",
+    "slug": "photography",
+    "name": "Photographers",
+    "description": "Photography",
+    "parentIds": [
+      "services"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "event-planning",
+    "type": "category",
+    "slug": "event-planning",
+    "name": "Event Planning",
+    "description": "Event planners",
+    "parentIds": [
+      "services"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "cleaning",
+    "type": "category",
+    "slug": "cleaning",
+    "name": "Cleaning Services",
+    "description": "Cleaning",
+    "parentIds": [
+      "services"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "movers",
+    "type": "category",
+    "slug": "movers",
+    "name": "Movers",
+    "description": "Moving companies",
+    "parentIds": [
+      "services"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "storage",
+    "type": "category",
+    "slug": "storage",
+    "name": "Storage",
+    "description": "Storage units",
+    "parentIds": [
+      "services"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "pet-services",
+    "type": "category",
+    "slug": "pet-services",
+    "name": "Pet Services",
+    "description": "Pet services",
+    "parentIds": [
+      "services"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "dog-grooming",
+    "type": "category",
+    "slug": "dog-grooming",
+    "name": "Dog Grooming",
+    "description": "Grooming",
+    "parentIds": [
+      "pet-services"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "vets",
+    "type": "category",
+    "slug": "vets",
+    "name": "Veterinarians",
+    "description": "Animal hospitals",
+    "parentIds": [
+      "pet-services"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "auto-repair",
+    "type": "category",
+    "slug": "auto-repair",
+    "name": "Auto Repair",
+    "description": "Repair shops",
+    "parentIds": [
+      "automotive"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "oil-change",
+    "type": "category",
+    "slug": "oil-change",
+    "name": "Oil Change",
+    "description": "Oil change",
+    "parentIds": [
+      "automotive"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "tire-shops",
+    "type": "category",
+    "slug": "tire-shops",
+    "name": "Tire Shops",
+    "description": "Tire shops",
+    "parentIds": [
+      "automotive"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "car-wash",
+    "type": "category",
+    "slug": "car-wash",
+    "name": "Car Wash",
+    "description": "Car washes",
+    "parentIds": [
+      "automotive"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "detailing",
+    "type": "category",
+    "slug": "detailing",
+    "name": "Auto Detailing",
+    "description": "Car detailing",
+    "parentIds": [
+      "automotive"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "dealerships",
+    "type": "category",
+    "slug": "dealerships",
+    "name": "Dealerships",
+    "description": "Car dealers",
+    "parentIds": [
+      "automotive"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "plumbers",
+    "type": "category",
+    "slug": "plumbers",
+    "name": "Plumbers",
+    "description": "Plumbing",
+    "parentIds": [
+      "home-services"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "electricians",
+    "type": "category",
+    "slug": "electricians",
+    "name": "Electricians",
+    "description": "Electrical",
+    "parentIds": [
+      "home-services"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "hvac",
+    "type": "category",
+    "slug": "hvac",
+    "name": "HVAC",
+    "description": "Heating cooling",
+    "parentIds": [
+      "home-services"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "roofing",
+    "type": "category",
+    "slug": "roofing",
+    "name": "Roofing",
+    "description": "Roofers",
+    "parentIds": [
+      "home-services"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "landscaping",
+    "type": "category",
+    "slug": "landscaping",
+    "name": "Landscaping",
+    "description": "Landscaping",
+    "parentIds": [
+      "home-services"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "pest-control",
+    "type": "category",
+    "slug": "pest-control",
+    "name": "Pest Control",
+    "description": "Pest control",
+    "parentIds": [
+      "home-services"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "lawyers",
+    "type": "category",
+    "slug": "lawyers",
+    "name": "Lawyers",
+    "description": "Attorneys",
+    "parentIds": [
+      "professional"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "accountants",
+    "type": "category",
+    "slug": "accountants",
+    "name": "Accountants",
+    "description": "Accounting",
+    "parentIds": [
+      "professional"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "insurance",
+    "type": "category",
+    "slug": "insurance",
+    "name": "Insurance",
+    "description": "Insurance",
+    "parentIds": [
+      "professional"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "real-estate",
+    "type": "category",
+    "slug": "real-estate",
+    "name": "Real Estate",
+    "description": "Realtors",
+    "parentIds": [
+      "professional"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "marketing",
+    "type": "category",
+    "slug": "marketing",
+    "name": "Marketing Agencies",
+    "description": "Marketing",
+    "parentIds": [
+      "professional"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "software",
+    "type": "category",
+    "slug": "software",
+    "name": "Software Companies",
+    "description": "Tech companies",
+    "parentIds": [
+      "professional"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "",
+      "type": ""
+    },
+    "tags": [],
+    "seo": {
+      "title": "",
+      "description": "",
+      "keywords": []
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "barton-springs-pool",
+    "type": "item",
+    "slug": "barton-springs-pool",
+    "name": "Barton Springs Pool",
+    "description": "Natural spring-fed swimming pool located in Zilker Park.",
+    "parentIds": [
+      "swimming"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "Austin, Texas",
+      "type": "attraction"
+    },
+    "tags": [
+      "swimming",
+      "nature",
+      "outdoor"
+    ],
+    "seo": {
+      "title": "Barton Springs Pool Austin",
+      "description": "Famous natural swimming pool in Austin Texas.",
+      "keywords": [
+        "Barton Springs"
+      ]
+    },
+    "media": {
+      "featuredImage": "Austin swimming"
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "lady-bird-lake",
+    "type": "item",
+    "slug": "lady-bird-lake",
+    "name": "Lady Bird Lake",
+    "description": "Popular lake for kayaking, paddleboarding, and trails.",
+    "parentIds": [
+      "outdoor"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "Austin, Texas",
+      "type": "attraction"
+    },
+    "tags": [
+      "lake",
+      "kayak",
+      "trail"
+    ],
+    "seo": {
+      "title": "Lady Bird Lake Austin",
+      "description": "Lake in downtown Austin popular for recreation.",
+      "keywords": [
+        "Lady Bird Lake"
+      ]
+    },
+    "media": {
+      "featuredImage": "Austin lake"
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "terry-blacks-bbq",
+    "type": "item",
+    "slug": "terry-blacks-bbq",
+    "name": "Terry Black's BBQ",
+    "description": "Popular Austin BBQ restaurant known for brisket.",
+    "parentIds": [
+      "bbq"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "Austin, Texas",
+      "type": "restaurant"
+    },
+    "tags": [
+      "bbq",
+      "texas",
+      "food"
+    ],
+    "seo": {
+      "title": "Terry Blacks BBQ Austin",
+      "description": "Famous BBQ restaurant in Austin.",
+      "keywords": [
+        "Austin BBQ"
+      ]
+    },
+    "media": {
+      "featuredImage": "/images/terry-blacks.jpg"
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "franklin-bbq",
+    "type": "item",
+    "slug": "franklin-bbq",
+    "name": "Franklin BBQ",
+    "description": "Famous Austin BBQ spot with long lines.",
+    "parentIds": [
+      "bbq"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "Austin, Texas",
+      "type": "restaurant"
+    },
+    "tags": [
+      "bbq",
+      "brisket"
+    ],
+    "seo": {
+      "title": "Franklin BBQ Austin",
+      "description": "Legendary Texas BBQ restaurant.",
+      "keywords": [
+        "Franklin BBQ"
+      ]
+    },
+    "media": {
+      "featuredImage": "/images/franklin.jpg"
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "joes-coffee",
+    "type": "item",
+    "slug": "joes-coffee",
+    "name": "Jo's Coffee",
+    "description": "Popular coffee shop on South Congress.",
+    "parentIds": [
+      "coffee"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "Austin, Texas",
+      "type": "coffee shop"
+    },
+    "tags": [
+      "coffee",
+      "cafe"
+    ],
+    "seo": {
+      "title": "Joes Coffee Austin",
+      "description": "South Congress coffee shop.",
+      "keywords": [
+        "Austin coffee"
+      ]
+    },
+    "media": {
+      "featuredImage": "/images/joes-coffee.jpg"
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "zilker-botanical-garden",
+    "type": "item",
+    "slug": "zilker-botanical-garden",
+    "name": "Zilker Botanical Garden",
+    "description": "Botanical gardens located inside Zilker Park.",
+    "parentIds": [
+      "attractions"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "Austin, Texas",
+      "type": "attraction"
+    },
+    "tags": [
+      "garden",
+      "nature"
+    ],
+    "seo": {
+      "title": "Zilker Botanical Garden",
+      "description": "Botanical garden in Austin Texas.",
+      "keywords": [
+        "Austin gardens"
+      ]
+    },
+    "media": {
+      "featuredImage": "/images/botanical.jpg"
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "mount-bonnell",
+    "type": "item",
+    "slug": "mount-bonnell",
+    "name": "Mount Bonnell",
+    "description": "Scenic overlook with views of Austin.",
+    "parentIds": [
+      "outdoor"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "Austin, Texas",
+      "type": "attraction"
+    },
+    "tags": [
+      "scenic",
+      "view"
+    ],
+    "seo": {
+      "title": "Mount Bonnell Austin",
+      "description": "Scenic viewpoint in Austin.",
+      "keywords": [
+        "Austin views"
+      ]
+    },
+    "media": {
+      "featuredImage": "/images/mount-bonnell.jpg"
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "butler-pitch-putt",
+    "type": "item",
+    "slug": "butler-pitch-putt",
+    "name": "Butler Pitch & Putt",
+    "description": "Historic 9-hole golf course near downtown Austin.",
+    "parentIds": [
+      "things-to-do"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "Austin, Texas",
+      "type": "recreation"
+    },
+    "tags": [
+      "golf",
+      "outdoor"
+    ],
+    "seo": {
+      "title": "Butler Pitch and Putt",
+      "description": "Austin short golf course.",
+      "keywords": [
+        "Austin golf"
+      ]
+    },
+    "media": {
+      "featuredImage": "/images/butler.jpg"
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "comedy-mothership",
+    "type": "item",
+    "slug": "comedy-mothership",
+    "name": "Comedy Mothership",
+    "description": "Comedy club in downtown Austin.",
+    "parentIds": [
+      "comedy"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "Austin, Texas",
+      "type": "nightlife"
+    },
+    "tags": [
+      "comedy",
+      "nightlife"
+    ],
+    "seo": {
+      "title": "Comedy Mothership Austin",
+      "description": "Austin comedy club venue.",
+      "keywords": [
+        "Austin comedy"
+      ]
+    },
+    "media": {
+      "featuredImage": "/images/comedy-mothership.jpg"
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "meanwhile-brewery",
+    "type": "item",
+    "slug": "meanwhile-brewery",
+    "name": "Meanwhile Brewing",
+    "description": "Brewery with food trucks and live music.",
+    "parentIds": [
+      "breweries"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "Austin, Texas",
+      "type": "brewery"
+    },
+    "tags": [
+      "beer",
+      "music"
+    ],
+    "seo": {
+      "title": "Meanwhile Brewery Austin",
+      "description": "Popular Austin brewery.",
+      "keywords": [
+        "Austin brewery"
+      ]
+    },
+    "media": {
+      "featuredImage": "/images/meanwhile.jpg"
+    },
+    "relationships": {
+      "related": []
+    }
+  },
+  {
+    "id": "trumodern-esthetics",
+    "type": "item",
+    "slug": "trumodern-esthetics",
+    "name": "trumodern esthetics",
+    "description": "Esthetician",
+    "parentIds": [
+      "facials",
+      "waxing"
+    ],
+    "status": "published",
+    "visibility": "public",
+    "metadata": {
+      "location": "Austin, Texas",
+      "type": "Esthetician"
+    },
+    "tags": [
+      "waxing",
+      "facial",
+      "brazilian"
+    ],
+    "seo": {
+      "title": "Esthetician Austin",
+      "description": "Popular Austin esthetician.",
+      "keywords": [
+        "Austin Esthetician"
+      ]
+    },
+    "media": {
+      "featuredImage": ""
+    },
+    "relationships": {
+      "related": []
+    }
+  }
+]
