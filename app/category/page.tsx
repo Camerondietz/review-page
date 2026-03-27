@@ -20,7 +20,7 @@ export default async function CategoryIndex() {
         {rootCategories.map((cat) => (
           <Link
             key={cat.id}
-            href={`/category/${cat.id}`}
+            href={`/${cat.id}`}
             className="block border rounded-lg p-4 hover:bg-gray-50"
           >
             <h2 className="font-semibold">

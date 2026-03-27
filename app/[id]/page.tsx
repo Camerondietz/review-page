@@ -1,4 +1,4 @@
-// app/category/[id]/page.tsx
+// app/[id]/page.tsx
 
 import { notFound } from "next/navigation";
 import Link from "next/link";
@@ -85,7 +85,7 @@ export default async function CategoryPage({ params }: Props) {
 
   const categories = children.filter((c) => c.type === "category");
   //const pages = children.filter((c) => c.type !== "category");
-const pages = await getItemsForCategoryTree(id);
+  const pages = await getItemsForCategoryTree(id);
 
   const ContentComponent = await loadContentComponent(id);
 
@@ -103,7 +103,7 @@ const pages = await getItemsForCategoryTree(id);
           <span key={crumb.id}>
             {" / "}
             <Link
-              href={`/category/${crumb.id}`}
+              href={`/${crumb.id}`}
               className="hover:underline"
             >
               {crumb.name}
@@ -151,7 +151,7 @@ const pages = await getItemsForCategoryTree(id);
             {categories.map((cat: NodeType) => (
               <Link
                 key={cat.id}
-                href={`/category/${cat.id}`}
+                href={`/${cat.id}`}
                 className="block border rounded-lg p-4 hover:bg-gray-50"
               >
                 <h3 className="font-medium">
@@ -185,7 +185,7 @@ const pages = await getItemsForCategoryTree(id);
             {pages.map((page: NodeType) => (
               <Link
                 key={page.id}
-                href={`/category/${page.id}`}
+                href={`/${page.id}`}
                 className="block border rounded-md p-3 hover:bg-gray-50"
               >
                 <h3 className="font-medium">
