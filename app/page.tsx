@@ -25,7 +25,7 @@ export default function HomePage() {
               Explore Austin
             </a>
             <a
-              href="#categories"
+              href="/category"
               className="border border-gray-300 px-6 py-3 rounded-full font-medium hover:border-austinBlue transition"
             >
               Browse Categories
@@ -38,7 +38,7 @@ export default function HomePage() {
       <section id="categories" className="py-24 px-6 bg-gray-50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-semibold mb-16 text-center">
-            Browse by Category
+            Featured Categories
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -72,20 +72,20 @@ export default function HomePage() {
             <FeaturedCard
               title="Terry Black’s BBQ"
               category="BBQ"
-              image="/bbq.jpg"
-              href="/places/terry-blacks"
+              image="/terry-blacks-bbq.jpg"
+              href="/terry-blacks-bbq"
             />
             <FeaturedCard
-              title="Houndstooth Coffee"
-              category="Coffee"
-              image="/coffee.jpg"
-              href="/places/houndstooth"
+              title="Trumodern Esthetics"
+              category="Esthetician"
+              image="/trumodern-esthetics.jpg"
+              href="/trumodern-esthetics"
             />
             <FeaturedCard
-              title="South Congress"
+              title="Mount Bonnell"
               category="Neighborhood"
-              image="/soc.jpg"
-              href="/neighborhoods/south-congress"
+              image="/mount-bonnell.jpg"
+              href="/mount-bonnell"
             />
           </div>
         </div>
@@ -105,7 +105,7 @@ export default function HomePage() {
             <input
               type="email"
               placeholder="Enter your email"
-              className="px-6 py-3 rounded-full text-black w-full sm:w-auto"
+              className="px-6 py-3 rounded-full text-white w-full sm:w-auto"
             />
             <button className="bg-austinGold px-6 py-3 rounded-full font-medium hover:opacity-90 transition">
               Subscribe

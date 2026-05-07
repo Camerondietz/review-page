@@ -312,7 +312,7 @@ export default function SearchClient({
           {results.map((node) => (
             <Link
               key={node.id}
-              href={`/category/${node.id}`}
+              href={`/${node.id}`}
               className="block border rounded-lg p-4 hover:bg-gray-50"
             >
               <h2 className="font-semibold">

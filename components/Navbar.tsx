@@ -20,7 +20,7 @@ export default function Navbar() {
             href="/"
             className="font-semibold text-lg tracking-tight"
           >
-            Template
+            Austin Reviews
           </Link>
 
           {/* Desktop Nav */}
