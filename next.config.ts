@@ -7,8 +7,8 @@ const nextConfig: NextConfig = {
   images: { unoptimized: true },
   trailingSlash: true,
   /* only use below in github */
-/*   basePath: `/${repo}`,
-  assetPrefix: `/${repo}/`, */
+  basePath: `/${repo}`,
+  assetPrefix: `/${repo}/`,
 };
 
 export default nextConfig;
