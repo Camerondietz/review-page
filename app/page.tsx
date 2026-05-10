@@ -24,12 +24,12 @@ export default function HomePage() {
             >
               Explore Austin
             </a>
-            <a
+            <Link
               href="/category"
               className="border border-gray-300 px-6 py-3 rounded-full font-medium hover:border-austinBlue transition"
             >
               Browse Categories
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -92,7 +92,7 @@ export default function HomePage() {
       </section>
 
       {/* EMAIL CTA */}
-      <section className="py-32 bg-gray-900 text-white text-center px-6">
+      {/* <section className="py-32 bg-gray-900 text-white text-center px-6">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-4xl font-semibold mb-6">
             Get the Austin Insider Guide
@@ -146,7 +146,7 @@ export default function HomePage() {
 
       {/* Features */}
 
-      <section className="mx-auto max-w-6xl px-6 py-16">
+      {/* <section className="mx-auto max-w-6xl px-6 py-16">
 
         <div className="grid md:grid-cols-3 gap-10">
 
@@ -185,11 +185,11 @@ export default function HomePage() {
 
         </div>
 
-      </section>
+      </section> */}
 
       {/* Example Sections */}
 
-      <section className="bg-gray-50 py-16">
+      {/* <section className="bg-gray-50 py-16">
 
         <div className="mx-auto max-w-6xl px-6">
 
@@ -199,7 +199,6 @@ export default function HomePage() {
 
           <div className="grid md:grid-cols-3 gap-6">
 
-            {/* Example Block */}
 
             <div className="border rounded-lg p-5 bg-white">
               <h3 className="font-semibold">
@@ -238,11 +237,11 @@ export default function HomePage() {
 
         </div>
 
-      </section>
+      </section> */}
 
       {/* Explore */}
 
-      <section className="mx-auto max-w-6xl px-6 py-20">
+      {/* <section className="mx-auto max-w-6xl px-6 py-20">
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
 
@@ -276,11 +275,11 @@ export default function HomePage() {
 
             </div>
 
-          </div>
+          </div> */}
 
           {/* Example card grid */}
 
-          <div className="grid grid-cols-2 gap-4">
+          {/* <div className="grid grid-cols-2 gap-4">
 
             <div className="border rounded-lg p-4">
               <p className="font-medium">
@@ -322,11 +321,11 @@ export default function HomePage() {
 
         </div>
 
-      </section>
+      </section> */}
 
       {/* CTA */}
 
-      <section className="border-t">
+      {/* <section className="border-t">
 
         <div className="mx-auto max-w-5xl px-6 py-20 text-center">
 
@@ -358,7 +357,7 @@ export default function HomePage() {
 
         </div>
 
-      </section>
+      </section> */}
     </div>
   );
 }

@@ -1,3 +1,6 @@
+import Image from "next/image";
+import Link from "next/link";
+
 interface Props {
   title: string;
   category: string;
@@ -16,7 +19,7 @@ export default function FeaturedCard({
       href={href}
       className="group relative rounded-3xl overflow-hidden shadow-lg"
     >
-      <img
+      <Image
         src={image}
         alt={title}
         className="w-full h-72 object-cover group-hover:scale-105 transition duration-500"

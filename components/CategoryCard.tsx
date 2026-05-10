@@ -1,3 +1,4 @@
+import Link from "next/link";
 interface Props {
   title: string;
   description: string;
@@ -6,7 +7,7 @@ interface Props {
 
 export default function CategoryCard({ title, description, href }: Props) {
   return (
-    <a
+    <Link
       href={href}
       className="group rounded-3xl border border-gray-100 p-8 hover:shadow-xl transition duration-300 bg-white"
     >
@@ -14,6 +15,6 @@ export default function CategoryCard({ title, description, href }: Props) {
         {title}
       </h3>
       <p className="text-gray-600">{description}</p>
-    </a>
+    </Link>
   );
 }
