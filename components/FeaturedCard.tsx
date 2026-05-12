@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { repo } from "@/lib/constants"; // your repo name if using github
 
 interface Props {
   title: string;
@@ -20,7 +21,7 @@ export default function FeaturedCard({
       className="group relative rounded-3xl overflow-hidden shadow-lg"
     >
       <Image
-        src={image}
+        src={`${repo}${image}`}
         alt={title}
         className="w-full h-72 object-cover group-hover:scale-105 transition duration-500"
       ></Image>
