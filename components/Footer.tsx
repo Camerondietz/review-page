@@ -16,12 +16,11 @@ export default function Footer() {
           <div>
 
             <h3 className="font-semibold text-lg mb-2">
-              Template
+              The Best Of Austin
             </h3>
 
             <p className="text-sm text-gray-600 max-w-xs">
-              A modular knowledge and content platform
-              built with Next.js.
+              The best resource of information of austin curated from a team with decades of first hand experience 
             </p>
 
           </div>
@@ -74,7 +73,7 @@ export default function Footer() {
 
         <div className="border-t mt-10 pt-6 text-sm text-gray-500">
 
-          © {year} Template. All rights reserved.
+          © {year} Cameron Dietz. All rights reserved.
 
         </div>
 
