@@ -1,3 +1,3 @@
 // lib/constants.ts
 
-export const repo = "/review-page";
+export const repo = "";

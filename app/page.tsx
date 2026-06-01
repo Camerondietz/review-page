@@ -34,33 +34,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* CATEGORIES */}
-      <section id="categories" className="py-24 px-6 bg-gray-50">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-semibold mb-16 text-center">
-            Featured Categories
-          </h2>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            <CategoryCard
-              title="Restaurants"
-              description="The best dining experiences in Austin."
-              href="/restaurants"
-            />
-            <CategoryCard
-              title="Coffee Shops"
-              description="Work-friendly and specialty coffee spots."
-              href="/coffee"
-            />
-            <CategoryCard
-              title="Things To Do"
-              description="Experiences, nightlife, and activities."
-              href="/things-to-do"
-            />
-          </div>
-        </div>
-      </section>
-
       {/* FEATURED */}
       <section id="featured" className="py-24 px-6">
         <div className="max-w-6xl mx-auto">
@@ -90,6 +63,35 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* CATEGORIES */}
+      <section id="categories" className="py-24 px-6 bg-gray-50">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-4xl font-semibold mb-16 text-center">
+            Featured Categories
+          </h2>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <CategoryCard
+              title="Restaurants"
+              description="The best dining experiences in Austin."
+              href="/restaurants"
+            />
+            <CategoryCard
+              title="Coffee Shops"
+              description="Work-friendly and specialty coffee spots."
+              href="/coffee"
+            />
+            <CategoryCard
+              title="Things To Do"
+              description="Experiences, nightlife, and activities."
+              href="/things-to-do"
+            />
+          </div>
+        </div>
+      </section>
+
+
 
       {/* EMAIL CTA */}
       {/* <section className="py-32 bg-gray-900 text-white text-center px-6">

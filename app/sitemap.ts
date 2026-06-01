@@ -10,11 +10,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   return [
     {
-      url: "https://yourdomain.com",
+      url: "https://best-of-austin.com",
       lastModified: new Date(),
     },
     ...nodes.map((node) => ({
-      url: `https://yourdomain.com/page/${node.id}`,
+      url: `https://best-of-austin/${node.id}`,
       lastModified: new Date(),
     })),
   ];

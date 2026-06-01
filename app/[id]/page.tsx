@@ -117,6 +117,25 @@ export default async function CategoryPage({ params }: Props) {
 
       {/* Title */}
 
+{/*       <header className="mb-8">
+        <h1 className="text-3xl font-bold">
+          {node.name}
+        </h1>
+
+        {node.description && (
+          <p className="mt-3 text-gray-600">
+            {node.description}
+          </p>
+        )}
+      </header> */}
+
+      {/* Custom Content */}
+
+      {ContentComponent ? (
+        <section className="docs mb-12">
+          <ContentComponent node={node} />
+        </section>
+      ) : (
       <header className="mb-8">
         <h1 className="text-3xl font-bold">
           {node.name}
@@ -128,13 +147,6 @@ export default async function CategoryPage({ params }: Props) {
           </p>
         )}
       </header>
-
-      {/* Custom Content */}
-
-      {ContentComponent && (
-        <section className="docs mb-12">
-          <ContentComponent node={node} />
-        </section>
       )}
 
       {/* Subcategories */}
