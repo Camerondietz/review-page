@@ -1,84 +1,71 @@
 import Link from "next/link";
+import { siteConfig } from "@/lib/siteConfig";
+import Image from "next/image";
 
 export default function Footer() {
-
   const year = new Date().getFullYear();
 
   return (
-    <footer className="border-t mt-20">
-
-      <div className="mx-auto max-w-7xl px-6 py-12">
-
-        <div className="grid md:grid-cols-3 gap-10">
-
+    <footer className="mt-24 border-t border-gray-100 bg-gradient-to-b from-white to-gray-50">
+      <div className="mx-auto max-w-7xl px-6 py-14">
+        <div className="grid gap-10 md:grid-cols-3">
           {/* Brand */}
-
           <div>
-
-            <h3 className="font-semibold text-lg mb-2">
-              The Best Of Austin
-            </h3>
-
-            <p className="text-sm text-gray-600 max-w-xs">
-              The best resource of information of austin curated from a team with decades of first hand experience 
+            <div className="flex items-center gap-2">
+              <Image
+                src="/logo.png"
+                alt="Logo"
+                width={28}
+                height={28}
+                className="h-11 w-11 rounded-lg object-cover"
+                priority
+              />
+              <h3 className="font-semibold text-lg tracking-tight">
+                {siteConfig.shortName}
+              </h3>
+            </div>
+            <p className="mt-3 text-sm text-gray-600 max-w-xs">
+              {siteConfig.footerBlurb}
             </p>
-
           </div>
 
           {/* Navigation */}
-
           <div>
-
-            <h4 className="font-semibold mb-3">
-              Navigation
+            <h4 className="text-sm font-semibold text-gray-900 mb-3 uppercase tracking-wide">
+              Explore
             </h4>
-
-            <div className="flex flex-col gap-2 text-sm text-gray-600">
-
-              <Link href="/category">
-                Categories
-              </Link>
-
-              <Link href="/search">
-                Search
-              </Link>
-
-            </div>
-
+            <ul className="flex flex-col gap-2 text-sm text-gray-600">
+              {siteConfig.footerNav.map((l) => (
+                <li key={l.href}>
+                  <Link href={l.href} className="hover:text-gray-900 transition">
+                    {l.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
 
           {/* Legal */}
-
           <div>
-
-            <h4 className="font-semibold mb-3">
+            <h4 className="text-sm font-semibold text-gray-900 mb-3 uppercase tracking-wide">
               Legal
             </h4>
-
-            <div className="flex flex-col gap-2 text-sm text-gray-600">
-
-              <Link href="/privacy">
-                Privacy
-              </Link>
-
-              <Link href="/terms">
-                Terms
-              </Link>
-
-            </div>
-
+            <ul className="flex flex-col gap-2 text-sm text-gray-600">
+              {siteConfig.footerLegal.map((l) => (
+                <li key={l.href}>
+                  <Link href={l.href} className="hover:text-gray-900 transition">
+                    {l.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
-
         </div>
 
-        <div className="border-t mt-10 pt-6 text-sm text-gray-500">
-
-          © {year} Cameron Dietz. All rights reserved.
-
+        <div className="mt-10 pt-6 border-t border-gray-100 text-sm text-gray-500">
+          © {year} {siteConfig.footerCopyrightHolder}. All rights reserved.
         </div>
-
       </div>
-
     </footer>
   );
 }

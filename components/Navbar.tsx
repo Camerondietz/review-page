@@ -1,61 +1,19 @@
-"use client";
+// components/Navbar.tsx
+// Server component — pulls nodes once and passes them to the
+// (client) NavbarClient so the search box has its dataset.
 
-import Link from "next/link";
-import { useState } from "react";
-import MobileMenu from "./MobileMenu";
+import { getAllNodes } from "@/app/tools/repository";
+import { siteConfig } from "@/lib/siteConfig";
+import NavbarClient from "./NavbarClient";
 
-export default function Navbar() {
-
-  const [open, setOpen] = useState(false);
-
+export default async function Navbar() {
+  const nodes = await getAllNodes();
   return (
-
-    <header className="sticky top-0 z-50 backdrop-blur-md bg-white/70 border-b border-gray-100">
-
-      <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-
-          {/* Logo */}
-
-          <Link
-            href="/"
-            className="font-semibold text-lg tracking-tight"
-          >
-            Austin Reviews
-          </Link>
-
-          {/* Desktop Nav */}
-
-          <nav className="hidden md:flex gap-8 text-sm">
-
-            <Link
-              href="/category"
-              className="hover:text-black text-gray-600"
-            >
-              Categories
-            </Link>
-
-            <Link
-              href="/search"
-              className="hover:text-black text-gray-600"
-            >
-              Search
-            </Link>
-
-          </nav>
-
-          {/* Mobile Button */}
-
-          <button
-            className="md:hidden"
-            onClick={() => setOpen(true)}
-          >
-            ☰
-          </button>
-
-      </div>
-
-      <MobileMenu open={open} setOpen={setOpen} />
-
-    </header>
+    <NavbarClient
+      nodes={nodes}
+      brand={siteConfig.shortName}
+      nav={siteConfig.primaryNav}
+      searchPlaceholder={siteConfig.search.placeholder}
+    />
   );
 }

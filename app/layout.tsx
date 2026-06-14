@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { siteConfig } from "@/lib/siteConfig";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,33 +16,27 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Best of Austin | Curated Austin Recommendations",
-  description:
-    "Discover the best restaurants, coffee shops, nightlife, neighborhoods, and hidden gems in Austin, Texas.",
-  keywords: [
-    "Best Austin",
-    "Austin Restaurants",
-    "Austin Coffee Shops",
-    "Things to do in Austin",
-  ],
+  title: {
+    default: `${siteConfig.name} | Curated ${siteConfig.shortName} Recommendations`,
+    template: `%s · ${siteConfig.shortName}`,
+  },
+  description: siteConfig.description,
+  keywords: [...siteConfig.defaultKeywords],
   openGraph: {
-    title: "Best of Austin",
-    description:
-      "The most curated guide to Austin’s top places and experiences.",
-    url: "https://yourdomain.com",
-    siteName: "Best of Austin",
-    locale: "en_US",
+    title: siteConfig.name,
+    description: siteConfig.description,
+    url: siteConfig.domain,
+    siteName: siteConfig.name,
+    locale: siteConfig.locale,
     type: "website",
   },
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: Readonly<{ children: React.ReactNode }>) {
   return (
-   <html lang="en" className="scroll-smooth">
+    <html lang="en" className={`${geistSans.variable} ${geistMono.variable} scroll-smooth`}>
       <body className="bg-white text-gray-900 antialiased">
         <Navbar />
         <main className="min-h-[70vh]">{children}</main>

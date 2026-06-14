@@ -1,86 +1,94 @@
 "use client";
 
 import Link from "next/link";
-import { useRef, useEffect } from "react";
+import { useEffect } from "react";
+import type { NodeType } from "@/app/tools/repository";
+import type { NavLink } from "@/lib/siteConfig";
+import SearchBox from "./SearchBox";
 
 type Props = {
   open: boolean;
   setOpen: (v: boolean) => void;
+  nodes?: NodeType[];
+  nav?: readonly NavLink[];
 };
 
-export default function MobileMenu({ open, setOpen }: Props) {
-  const menuRef = useRef<HTMLDivElement>(null);
-
-  // Close menu if clicked outside
+export default function MobileMenu({ open, setOpen, nodes = [], nav = [] }: Props) {
+  // Lock body scroll while open
   useEffect(() => {
-    function handleClickOutside(event: MouseEvent) {
-      if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
-        setOpen(false);
-      }
-    }
-
-    if (open) {
-      document.addEventListener("mousedown", handleClickOutside);
-    } else {
-      document.removeEventListener("mousedown", handleClickOutside);
-    }
-
+    if (!open) return;
+    const original = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
     return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
+      document.body.style.overflow = original;
     };
+  }, [open]);
+
+  // Esc closes
+  useEffect(() => {
+    if (!open) return;
+    function onKey(e: KeyboardEvent) {
+      if (e.key === "Escape") setOpen(false);
+    }
+    document.addEventListener("keydown", onKey);
+    return () => document.removeEventListener("keydown", onKey);
   }, [open, setOpen]);
 
   if (!open) return null;
 
-return (
-// Full screen overlay, blurred background
-<div className="fixed inset-0 z-50">
-  {/* Blurred background overlay */}
-  <div
-    className="absolute inset-0 backdrop-blur-md bg-black/10"
-    onClick={() => setOpen(false)}
-  />
-
-  {/* Menu panel */}
-  <div
-    ref={menuRef}
-    className="relative bg-white/90 backdrop-blur-lg p-6 shadow-xl flex flex-col"
-  >
-    {/* Close button */}
-    <button
-      onClick={() => setOpen(false)}
-      className="mb-8 text-gray-700 hover:text-black font-medium"
-    >
-      Close
-    </button>
-
-    {/* Nav links */}
-    <nav className="flex flex-col gap-4 text-lg">
-      <Link
-        href="/"
-        className="hover:text-blue-600 transition-colors"
+  return (
+    <div className="fixed inset-0 z-50 md:hidden">
+      {/* Backdrop */}
+      <div
+        className="absolute inset-0 bg-black/30 backdrop-blur-sm"
         onClick={() => setOpen(false)}
-      >
-        Home
-      </Link>
+      />
 
-      <Link
-        href="/category"
-        className="hover:text-blue-600 transition-colors"
-        onClick={() => setOpen(false)}
-      >
-        Categories
-      </Link>
+      {/* Sheet */}
+      <div className="absolute right-0 top-0 h-full w-[88%] max-w-sm bg-white shadow-2xl flex flex-col">
+        <div className="flex items-center justify-between px-5 py-4 border-b border-gray-100">
+          <span className="font-semibold tracking-tight">Menu</span>
+          <button
+            type="button"
+            aria-label="Close menu"
+            onClick={() => setOpen(false)}
+            className="h-9 w-9 inline-flex items-center justify-center rounded-full hover:bg-gray-100"
+          >
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} className="h-5 w-5">
+              <path d="M6 6l12 12M18 6L6 18" strokeLinecap="round" />
+            </svg>
+          </button>
+        </div>
 
-      <Link
-        href="/search"
-        className="hover:text-blue-600 transition-colors"
-        onClick={() => setOpen(false)}
-      >
-        Search
-      </Link>
-    </nav>
-  </div>
-</div>
+        <div className="p-5">
+          <SearchBox
+            nodes={nodes}
+            placeholder="Search…"
+            compact
+            onNavigate={() => setOpen(false)}
+          />
+        </div>
+
+        <nav className="px-2 pt-2 pb-6 flex flex-col">
+          <Link
+            href="/"
+            onClick={() => setOpen(false)}
+            className="px-3 py-3 rounded-lg text-base font-medium text-gray-800 hover:bg-gray-50"
+          >
+            Home
+          </Link>
+          {nav.map((l) => (
+            <Link
+              key={l.href}
+              href={l.href}
+              onClick={() => setOpen(false)}
+              className="px-3 py-3 rounded-lg text-base font-medium text-gray-800 hover:bg-gray-50"
+            >
+              {l.label}
+            </Link>
+          ))}
+        </nav>
+      </div>
+    </div>
   );
 }

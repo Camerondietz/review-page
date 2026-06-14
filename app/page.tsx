@@ -1,32 +1,36 @@
-import Image from "next/image";
+import Link from "next/link";
 import CategoryCard from "@/components/CategoryCard";
 import FeaturedCard from "@/components/FeaturedCard";
-import Link from "next/link";
+import { siteConfig } from "@/lib/siteConfig";
 
 export default function HomePage() {
   return (
     <div>
-      {/* HERO */}
-      <section className="py-32 text-center px-6">
-        <div className="max-w-4xl mx-auto">
-          <h1 className="text-6xl font-semibold tracking-tight mb-6">
-            The Best of Austin.
+      {/* ---------- HERO ---------- */}
+      <section className="relative overflow-hidden bg-hero-grid">
+        <div className="mx-auto max-w-5xl px-6 pt-24 pb-28 sm:pt-32 sm:pb-36 text-center">
+          <span className="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white/70 px-3 py-1 text-xs font-medium text-gray-600 backdrop-blur">
+            <span className="inline-block h-1.5 w-1.5 rounded-full bg-austin-gold" />
+            Curated. Local. Updated regularly.
+          </span>
+
+          <h1 className="mt-6 text-5xl sm:text-6xl font-semibold tracking-tight text-gray-900">
+            {siteConfig.tagline}
           </h1>
-          <p className="text-xl text-gray-600 mb-10">
-            Curated recommendations for the best restaurants, coffee shops,
-            nightlife, neighborhoods, and hidden gems in Austin, Texas.
+          <p className="mx-auto mt-5 max-w-2xl text-lg text-gray-600">
+            {siteConfig.heroSubtitle}
           </p>
 
-          <div className="flex justify-center gap-4">
-            <a
+          <div className="mt-9 flex flex-wrap justify-center gap-3">
+            <Link
               href="#featured"
-              className="bg-austinGold text-black px-6 py-3 rounded-full font-medium hover:opacity-90 transition"
+              className="rounded-full bg-gray-900 px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-black"
             >
               Explore Austin
-            </a>
+            </Link>
             <Link
               href="/category"
-              className="border border-gray-300 px-6 py-3 rounded-full font-medium hover:border-austinBlue transition"
+              className="rounded-full border border-gray-300 bg-white/70 px-6 py-3 text-sm font-semibold text-gray-800 backdrop-blur transition hover:border-austin-deep-blue hover:text-austin-deep-blue"
             >
               Browse Categories
             </Link>
@@ -34,332 +38,86 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* FEATURED */}
-      <section id="featured" className="py-24 px-6">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-semibold mb-16 text-center">
-            Featured Places
-          </h2>
+      {/* ---------- FEATURED ITEMS ---------- */}
+      <section id="featured" className="px-6 py-20 sm:py-24">
+        <div className="mx-auto max-w-7xl">
+          <SectionHeading
+            eyebrow="Editor's picks"
+            title="Featured places"
+            subtitle="A small, hand-picked snapshot of the city worth knowing right now."
+          />
 
-          <div className="grid md:grid-cols-3 gap-8">
-            <FeaturedCard
-              title="Terry Black’s BBQ"
-              category="BBQ"
-              image="/terry-blacks-bbq.jpg"
-              href="/terry-blacks-bbq"
-            />
-            <FeaturedCard
-              title="Trumodern Esthetics"
-              category="Esthetician"
-              image="/trumodern-esthetics.jpg"
-              href="/trumodern-esthetics"
-            />
-            <FeaturedCard
-              title="Mount Bonnell"
-              category="Neighborhood"
-              image="/mount-bonnell.jpg"
-              href="/mount-bonnell"
-            />
+          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {siteConfig.featuredItems.map((item) => (
+              <FeaturedCard
+                key={item.href}
+                title={item.title}
+                category={item.category}
+                image={item.image}
+                href={item.href}
+              />
+            ))}
           </div>
         </div>
       </section>
 
-      {/* CATEGORIES */}
-      <section id="categories" className="py-24 px-6 bg-gray-50">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-semibold mb-16 text-center">
-            Featured Categories
-          </h2>
+      {/* ---------- CATEGORIES ---------- */}
+      <section id="categories" className="bg-gray-50 px-6 py-20 sm:py-24">
+        <div className="mx-auto max-w-7xl">
+          <SectionHeading
+            eyebrow="Browse"
+            title="Pick a category"
+            subtitle="Drill down into food, things to do, nightlife, neighborhoods, and more."
+          />
 
-          <div className="grid md:grid-cols-3 gap-8">
-            <CategoryCard
-              title="Restaurants"
-              description="The best dining experiences in Austin."
-              href="/restaurants"
-            />
-            <CategoryCard
-              title="Coffee Shops"
-              description="Work-friendly and specialty coffee spots."
-              href="/coffee"
-            />
-            <CategoryCard
-              title="Things To Do"
-              description="Experiences, nightlife, and activities."
-              href="/things-to-do"
-            />
-          </div>
-        </div>
-      </section>
-
-
-
-      {/* EMAIL CTA */}
-      {/* <section className="py-32 bg-gray-900 text-white text-center px-6">
-        <div className="max-w-3xl mx-auto">
-          <h2 className="text-4xl font-semibold mb-6">
-            Get the Austin Insider Guide
-          </h2>
-          <p className="text-gray-300 mb-10">
-            The best places, hidden gems, and new openings — delivered monthly.
-          </p>
-
-          <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="px-6 py-3 rounded-full text-white w-full sm:w-auto"
-            />
-            <button className="bg-austinGold px-6 py-3 rounded-full font-medium hover:opacity-90 transition">
-              Subscribe
-            </button>
-          </div>
-        </div>
-      </section>
-      <section className="mx-auto max-w-6xl px-6 pt-20 pb-16 text-center">
-
-        <h1 className="text-4xl md:text-5xl font-bold tracking-tight">
-          A modern knowledge platform
-        </h1>
-
-        <p className="mt-4 text-gray-600 max-w-xl mx-auto">
-          Explore categories, discover topics, and search through structured
-          content using a clean and powerful knowledge system.
-        </p>
-
-        <div className="mt-8 flex justify-center gap-4">
-
-          <Link
-            href="/category"
-            className="px-5 py-3 rounded-md bg-black text-white hover:bg-gray-800"
-          >
-            Browse Categories
-          </Link>
-
-          <Link
-            href="/search"
-            className="px-5 py-3 rounded-md border hover:bg-gray-50"
-          >
-            Search
-          </Link>
-
-        </div>
-
-      </section>
-
-      {/* Features */}
-
-      {/* <section className="mx-auto max-w-6xl px-6 py-16">
-
-        <div className="grid md:grid-cols-3 gap-10">
-
-          <div>
-            <h3 className="font-semibold text-lg">
-              Structured Knowledge
-            </h3>
-
-            <p className="text-gray-600 mt-2 text-sm">
-              Organize information into categories, pages, and relationships
-              to create powerful knowledge systems.
-            </p>
+          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {siteConfig.featuredCategories.map((c) => (
+              <CategoryCard
+                key={c.href}
+                title={c.title}
+                description={c.description}
+                href={c.href}
+                badge={c.badge}
+              />
+            ))}
           </div>
 
-          <div>
-            <h3 className="font-semibold text-lg">
-              Powerful Search
-            </h3>
-
-            <p className="text-gray-600 mt-2 text-sm">
-              Instantly locate information with advanced filtering by tags,
-              categories, and metadata.
-            </p>
-          </div>
-
-          <div>
-            <h3 className="font-semibold text-lg">
-              Modular Architecture
-            </h3>
-
-            <p className="text-gray-600 mt-2 text-sm">
-              Built for flexibility so this template can power documentation,
-              directories, and research sites.
-            </p>
-          </div>
-
-        </div>
-
-      </section> */}
-
-      {/* Example Sections */}
-
-      {/* <section className="bg-gray-50 py-16">
-
-        <div className="mx-auto max-w-6xl px-6">
-
-          <h2 className="text-2xl font-semibold mb-8">
-            Example Content Sections
-          </h2>
-
-          <div className="grid md:grid-cols-3 gap-6">
-
-
-            <div className="border rounded-lg p-5 bg-white">
-              <h3 className="font-semibold">
-                Documentation
-              </h3>
-
-              <p className="text-sm text-gray-600 mt-2">
-                Create structured documentation similar to developer docs
-                or technical references.
-              </p>
-            </div>
-
-            <div className="border rounded-lg p-5 bg-white">
-              <h3 className="font-semibold">
-                Reviews
-              </h3>
-
-              <p className="text-sm text-gray-600 mt-2">
-                Build a review platform for products, places, or services
-                using categories and tags.
-              </p>
-            </div>
-
-            <div className="border rounded-lg p-5 bg-white">
-              <h3 className="font-semibold">
-                Knowledge Base
-              </h3>
-
-              <p className="text-sm text-gray-600 mt-2">
-                Organize research, articles, and guides into a navigable
-                knowledge network.
-              </p>
-            </div>
-
-          </div>
-
-        </div>
-
-      </section> */}
-
-      {/* Explore */}
-
-      {/* <section className="mx-auto max-w-6xl px-6 py-20">
-
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-
-          <div>
-
-            <h2 className="text-3xl font-semibold">
-              Explore the content graph
-            </h2>
-
-            <p className="text-gray-600 mt-4">
-              This platform organizes information into a flexible graph of
-              categories, pages, tags, and relationships so you can explore
-              knowledge naturally.
-            </p>
-
-            <div className="mt-6 flex gap-4">
-
-              <Link
-                href="/category"
-                className="px-5 py-3 border rounded-md hover:bg-gray-50"
-              >
-                View Categories
-              </Link>
-
-              <Link
-                href="/search"
-                className="px-5 py-3 border rounded-md hover:bg-gray-50"
-              >
-                Open Search
-              </Link>
-
-            </div>
-
-          </div> */}
-
-          {/* Example card grid */}
-
-          {/* <div className="grid grid-cols-2 gap-4">
-
-            <div className="border rounded-lg p-4">
-              <p className="font-medium">
-                Categories
-              </p>
-              <p className="text-xs text-gray-500">
-                hierarchical navigation
-              </p>
-            </div>
-
-            <div className="border rounded-lg p-4">
-              <p className="font-medium">
-                Tags
-              </p>
-              <p className="text-xs text-gray-500">
-                cross-topic discovery
-              </p>
-            </div>
-
-            <div className="border rounded-lg p-4">
-              <p className="font-medium">
-                Relationships
-              </p>
-              <p className="text-xs text-gray-500">
-                related content linking
-              </p>
-            </div>
-
-            <div className="border rounded-lg p-4">
-              <p className="font-medium">
-                Metadata
-              </p>
-              <p className="text-xs text-gray-500">
-                powerful filtering
-              </p>
-            </div>
-
-          </div>
-
-        </div>
-
-      </section> */}
-
-      {/* CTA */}
-
-      {/* <section className="border-t">
-
-        <div className="mx-auto max-w-5xl px-6 py-20 text-center">
-
-          <h2 className="text-3xl font-semibold">
-            Start exploring
-          </h2>
-
-          <p className="text-gray-600 mt-3">
-            Browse the category structure or search the entire knowledge base.
-          </p>
-
-          <div className="mt-6 flex justify-center gap-4">
-
+          <div className="mt-10 text-center">
             <Link
               href="/category"
-              className="px-6 py-3 bg-black text-white rounded-md hover:bg-gray-800"
+              className="text-sm font-semibold text-austin-deep-blue hover:underline"
             >
-              Categories
+              See all categories →
             </Link>
-
-            <Link
-              href="/search"
-              className="px-6 py-3 border rounded-md hover:bg-gray-50"
-            >
-              Search
-            </Link>
-
           </div>
-
         </div>
+      </section>
+    </div>
+  );
+}
 
-      </section> */}
+function SectionHeading({
+  eyebrow,
+  title,
+  subtitle,
+}: {
+  eyebrow?: string;
+  title: string;
+  subtitle?: string;
+}) {
+  return (
+    <div className="max-w-2xl mx-auto text-center">
+      {eyebrow && (
+        <p className="text-xs font-semibold uppercase tracking-[0.18em] text-austin-deep-blue">
+          {eyebrow}
+        </p>
+      )}
+      <h2 className="mt-2 text-3xl sm:text-4xl font-semibold tracking-tight text-gray-900">
+        {title}
+      </h2>
+      {subtitle && (
+        <p className="mt-3 text-base text-gray-600">{subtitle}</p>
+      )}
     </div>
   );
 }
